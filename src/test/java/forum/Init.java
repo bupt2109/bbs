@@ -59,7 +59,7 @@ public class Init {
 			String path = user_dir+File.separator+"src"+File.separator+"main"+File.separator+"webapp"+File.separator+"WEB-INF"+File.separator+"data"+File.separator+"install"+File.separator;
 		
 			//导入SQL结构文件
-		//	SqlFile.importSQL(conn,path+"structure_tables_mysql.sql","utf-8");
+			SqlFile.importSQL(conn,path+"structure_tables_mysql.sql","utf-8");
 			
 			//导入SQL数据文件
 			SqlFile.importSQL(conn,path+"data_tables_mysql.sql","utf-8");
